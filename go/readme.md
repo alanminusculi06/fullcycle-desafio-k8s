@@ -2,7 +2,7 @@
 
 ## Imagem no DockerHub
 
-[alanminusculi/go-web ](https://hub.docker.com/repository/docker/alanminusculi/go-web)
+[alanminusculi/go-web](https://hub.docker.com/repository/docker/alanminusculi/go-web)
 
 ## Executar
 
@@ -12,4 +12,4 @@ docker run --publish 8000:80 --name go-web --rm alanminusculi/go-web
 
 ## Acessar
 
-[http://localhost:8000](localhost:8000)
+[http://localhost:8000](http://localhost:8000)
