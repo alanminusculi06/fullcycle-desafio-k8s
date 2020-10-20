@@ -1,7 +1,7 @@
 steps:
 - id: Test
   name: golang
-  args: ['go', 'test', '-v']
+  args: ['go', 'test', './go/main_test.go']
 - id: Build Image
   name: 'docker'
-  args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/desafio-k8s', '.' ]
+  args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/desafio-k8s', './Dockerfile' ]
